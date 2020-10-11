@@ -1,0 +1,3 @@
+com\factory\cucumber\stepdefinitions\StepDefinitionsTest.class
+com\factory\cucumber\runner\RunCucumberTest.class
+com\factory\cucumber\stepdefinitions\HooksDemoTest.class
