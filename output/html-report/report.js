@@ -74,15 +74,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5458500,
+  "duration": 3180300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 406100,
+  "duration": 402500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1947200,
+  "duration": 1594300,
   "status": "passed"
 });
 formatter.scenario({
@@ -147,7 +147,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setAPIEndpointURL(String,String)"
 });
 formatter.result({
-  "duration": 110701100,
+  "duration": 95813200,
   "status": "passed"
 });
 formatter.match({
@@ -160,7 +160,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setHeader(String)"
 });
 formatter.result({
-  "duration": 1897200,
+  "duration": 1393100,
   "status": "passed"
 });
 formatter.match({
@@ -177,7 +177,7 @@ formatter.match({
   "location": "StepDefinitionsTest.submitRequest(String,String)"
 });
 formatter.result({
-  "duration": 3254748800,
+  "duration": 2642682500,
   "status": "passed"
 });
 formatter.match({
@@ -190,19 +190,19 @@ formatter.match({
   "location": "StepDefinitionsTest.verifyStatusCode(String)"
 });
 formatter.result({
-  "duration": 1886400,
+  "duration": 2352300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 804500,
+  "duration": 966900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 526800,
+  "duration": 627300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 347500,
+  "duration": 567500,
   "status": "passed"
 });
 formatter.uri("Hooks.feature");
@@ -277,15 +277,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 367400,
+  "duration": 747200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 270000,
+  "duration": 702500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6121500,
+  "duration": 3448300,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setHeader(String)"
 });
 formatter.result({
-  "duration": 578000,
+  "duration": 782800,
   "status": "passed"
 });
 formatter.match({
@@ -352,19 +352,19 @@ formatter.match({
   "location": "StepDefinitionsTest.submitRequest(String,String)"
 });
 formatter.result({
-  "duration": 290457700,
+  "duration": 673983600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 542500,
+  "duration": 556700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 290900,
+  "duration": 253900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 249000,
+  "duration": 229600,
   "status": "passed"
 });
 formatter.uri("TagsDemo.feature");
@@ -443,15 +443,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 317700,
+  "duration": 335500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 258300,
+  "duration": 259000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 817100,
+  "duration": 811900,
   "status": "passed"
 });
 formatter.scenario({
@@ -516,7 +516,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setAPIEndpointURL(String,String)"
 });
 formatter.result({
-  "duration": 869100,
+  "duration": 1119300,
   "status": "passed"
 });
 formatter.match({
@@ -529,7 +529,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setHeader(String)"
 });
 formatter.result({
-  "duration": 950200,
+  "duration": 650500,
   "status": "passed"
 });
 formatter.match({
@@ -546,7 +546,7 @@ formatter.match({
   "location": "StepDefinitionsTest.submitRequest(String,String)"
 });
 formatter.result({
-  "duration": 229707000,
+  "duration": 700860900,
   "status": "passed"
 });
 formatter.match({
@@ -559,19 +559,204 @@ formatter.match({
   "location": "StepDefinitionsTest.verifyStatusCode(String)"
 });
 formatter.result({
-  "duration": 838100,
+  "duration": 999900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1066700,
+  "duration": 1247700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 430100,
+  "duration": 719400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 431800,
+  "duration": 590100,
+  "status": "passed"
+});
+formatter.uri("demo.feature");
+formatter.feature({
+  "line": 1,
+  "name": "demo util tests",
+  "description": "",
+  "id": "demo-util-tests",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 863900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 585900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 1903300,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "test setup for sample rest service",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "request base url \u0027https://18.208.137.81:5001\u0027",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenario({
+  "line": 78,
+  "name": "Demo Util methods in demo feature",
+  "description": "",
+  "id": "demo-util-tests;demo-util-methods-in-demo-feature",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 77,
+      "name": "@runnow"
+    }
+  ]
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 79,
+      "value": "#    Given user get api first"
+    }
+  ],
+  "line": 80,
+  "name": "user post method one",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "user post method two",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 82,
+  "name": "user put to change a data",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 83,
+  "name": "user patch to change a data",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "duration": 1338300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1016900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 370900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 384400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 307700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3816100,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "test setup for sample rest service",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "request base url \u0027https://18.208.137.81:5001\u0027",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenario({
+  "line": 86,
+  "name": "Demo Util methods patch in demo feature",
+  "description": "",
+  "id": "demo-util-tests;demo-util-methods-patch-in-demo-feature",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 85,
+      "name": "@runnow"
+    }
+  ]
+});
+formatter.step({
+  "line": 87,
+  "name": "user patch to change a data",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 88,
+  "name": "create new payload.json file",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 89,
+  "name": "post from payload file",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "duration": 430700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 757000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 503000,
   "status": "passed"
 });
 });

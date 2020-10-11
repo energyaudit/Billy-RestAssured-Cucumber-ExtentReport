@@ -118,6 +118,15 @@
    		 <artifactId>maven-checkstyle-plugin</artifactId>
    		 <version>3.1.1</version>
 		</dependency>
+		<dependency>
+			<groupId>com.verifone.svc.global.automation</groupId>
+			<artifactId>svc-automation-api-common</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
+
+
+
 	</dependencies>
 	<build>
 		<!-- <sourceDirectory>${project.basedir}/src/test/java/com/factory/cucumber/stepdefinitions</sourceDirectory> 
