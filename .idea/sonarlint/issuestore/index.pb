@@ -13,3 +13,9 @@ i
 9src/test/java/com/factory/cucumber/features/Hooks.feature,3\4\344190b05b00fb831126dd4be6c9cc7fcca7151f
 l
 <src/test/java/com/factory/cucumber/features/TagsDemo.feature,b\2\b29d2b3151e689b568e641e5bf9fc43e1a873b74
+f
+6src/test/java/com/factory/cucumber/testdata/test2.json,9\7\9708962cfe05e00eab55fc60d3e23dc719f34d08
+e
+5src/test/java/com/factory/cucumber/testdata/test.json,c\1\c1e5a5febb899e1c997ee2988cff490e97704420
+{
+Ksrc/test/java/com/factory/cucumber/stepdefinitions/StepDefinitionsTest.java,4\7\47da30db938fdf8a78eb16724a5c939cd3e6c0c3
