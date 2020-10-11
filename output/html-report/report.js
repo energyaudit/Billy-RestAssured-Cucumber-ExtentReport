@@ -74,15 +74,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 23880682,
+  "duration": 5458500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 434174,
+  "duration": 406100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1074108,
+  "duration": 1947200,
   "status": "passed"
 });
 formatter.scenario({
@@ -147,7 +147,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setAPIEndpointURL(String,String)"
 });
 formatter.result({
-  "duration": 148506632,
+  "duration": 110701100,
   "status": "passed"
 });
 formatter.match({
@@ -160,7 +160,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setHeader(String)"
 });
 formatter.result({
-  "duration": 1526026,
+  "duration": 1897200,
   "status": "passed"
 });
 formatter.match({
@@ -177,7 +177,7 @@ formatter.match({
   "location": "StepDefinitionsTest.submitRequest(String,String)"
 });
 formatter.result({
-  "duration": 2121762670,
+  "duration": 3254748800,
   "status": "passed"
 });
 formatter.match({
@@ -190,19 +190,19 @@ formatter.match({
   "location": "StepDefinitionsTest.verifyStatusCode(String)"
 });
 formatter.result({
-  "duration": 2316599,
+  "duration": 1886400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1097515,
+  "duration": 804500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1135647,
+  "duration": 526800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1745756,
+  "duration": 347500,
   "status": "passed"
 });
 formatter.uri("Hooks.feature");
@@ -277,15 +277,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 386981,
+  "duration": 367400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 319023,
+  "duration": 270000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2036463,
+  "duration": 6121500,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setHeader(String)"
 });
 formatter.result({
-  "duration": 593496,
+  "duration": 578000,
   "status": "passed"
 });
 formatter.match({
@@ -352,19 +352,19 @@ formatter.match({
   "location": "StepDefinitionsTest.submitRequest(String,String)"
 });
 formatter.result({
-  "duration": 139568319,
+  "duration": 290457700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 587078,
+  "duration": 542500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 274851,
+  "duration": 290900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 289953,
+  "duration": 249000,
   "status": "passed"
 });
 formatter.uri("TagsDemo.feature");
@@ -443,15 +443,15 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 456071,
+  "duration": 317700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 312982,
+  "duration": 258300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 776604,
+  "duration": 817100,
   "status": "passed"
 });
 formatter.scenario({
@@ -516,7 +516,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setAPIEndpointURL(String,String)"
 });
 formatter.result({
-  "duration": 4784594,
+  "duration": 869100,
   "status": "passed"
 });
 formatter.match({
@@ -529,7 +529,7 @@ formatter.match({
   "location": "StepDefinitionsTest.setHeader(String)"
 });
 formatter.result({
-  "duration": 589344,
+  "duration": 950200,
   "status": "passed"
 });
 formatter.match({
@@ -546,7 +546,7 @@ formatter.match({
   "location": "StepDefinitionsTest.submitRequest(String,String)"
 });
 formatter.result({
-  "duration": 182741410,
+  "duration": 229707000,
   "status": "passed"
 });
 formatter.match({
@@ -559,19 +559,19 @@ formatter.match({
   "location": "StepDefinitionsTest.verifyStatusCode(String)"
 });
 formatter.result({
-  "duration": 596895,
+  "duration": 838100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 530069,
+  "duration": 1066700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 234832,
+  "duration": 430100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 260127,
+  "duration": 431800,
   "status": "passed"
 });
 });

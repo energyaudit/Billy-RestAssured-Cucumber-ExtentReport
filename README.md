@@ -19,8 +19,8 @@ https://reqres.in/
 ## Preconditions
 ```bash
 - Maven 
-- Java 8
-- Cucumber Eclipse plugin
+- Java 8,if you use JDK 14 may got error
+- Cucumber plugin
 ```
 
 ## MAVEN_Dependencies
@@ -138,7 +138,7 @@ public class RunCucumberTest {
 ```
 ## Add_features_and_respective_step_definitions
 ```feature
-#Author: Arjun
+
 Feature: GET: Automated Demo Tests
   Description: GET: purpose of this feature is to test some demo app.
 
@@ -154,11 +154,4 @@ Feature: GET: Automated Demo Tests
       | Demo test | /api/users?page=2 | application/json |             | GET           |        200 |
 ```
 
-## Support
 
-Reach out to me at one of the following places!
-
-- FaceBook at <a href="https://www.facebook.com/chinna.mir.3" target="_blank">`arjun`</a>
-- Twitter at <a href="https://twitter.com/arjun436" target="_blank">`@arjun436`</a>
-
----
