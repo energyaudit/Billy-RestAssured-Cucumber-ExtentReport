@@ -1,11 +1,17 @@
 /target/
+*/target/**
 
 #.idea
 .idea/workspace.xml
 .idea/*.*
+*/.idea/*.*
 .idea/
 idea/
 .metadata
+.metadata
+*.iws
+*.iml
+*.ipr
 
 #screenshots
 /src/main/screenshot

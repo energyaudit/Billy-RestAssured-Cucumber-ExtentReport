@@ -10,9 +10,8 @@ https://reqres.in/
 
 - [Preconditions](#Preconditions)
 - [MAVEN_Dependencies](#MAVEN_Dependencies)
-- [SetUp](#SetUp)
-- [Add_features_and_respective_step_definitions](#Add_features_and_respective_step_definitions)
-- [Support](#Support)
+- [run the test](#run the test)
+- [run the test](#Support)
 
 ---
 
@@ -61,51 +60,7 @@ All below dependencies are compatible.
 	<version>3.1.2</version>
 </dependency>
 ```
-## SetUp
-- Configure `extent-config.xml`
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<extentreports>
-	<configuration>
-		<!-- report theme --> <!-- standard, dark -->
-		<theme>standard</theme>
 
-		<!-- document encoding -->  <!-- defaults to UTF-8 -->
-		<encoding>UTF-8</encoding>
-
-		<!-- protocol for script and stylesheets -->   <!-- defaults to https -->
-		<protocol>https</protocol>
-
-		<!-- title of the document -->
-		<documentTitle>Cucumber Framework</documentTitle>
-
-		<!-- report name - displayed at top-nav -->
-		<reportName>Cucumber Extent Report</reportName>
-
-		<!-- global date format override -->  <!-- defaults to yyyy-MM-dd -->
-		<dateFormat>yyyy-MM-dd</dateFormat>
-
-		<!-- global time format override -->   <!-- defaults to HH:mm:ss -->
-		<timeFormat>HH:mm:ss</timeFormat>
-
-		<!-- custom javascript -->
-		<scripts>
-      <![CDATA[
-        $(document).ready(function() {
-        
-        });
-      ]]>
-		</scripts>
-
-		<!-- custom styles -->
-		<styles>
-      <![CDATA[
-        
-      ]]>
-		</styles>
-	</configuration>
-</extentreports>
-```
 
 - create a runner class for cucumber project
 - Run with tags. Here i have added `@get,@post,@put,@getfail,@postfail,@putfail` tags.
@@ -136,22 +91,10 @@ public class RunCucumberTest {
 
 }
 ```
-## Add_features_and_respective_step_definitions
-```feature
+## run the test
+```
+double click the test in maven
 
-Feature: GET: Automated Demo Tests
-  Description: GET: purpose of this feature is to test some demo app.
-
-  @get
-  Scenario Outline: GET: Test the Demo app
-    Given I want to set URL as "<URL>" for test case "<TestName>"
-    When I set header content type as "<ContentType>"
-    When I hit the API with requestbody "<RequestBody>" and request method is "<RequestMethod>"
-    Then I try to verify the status code is "<StatusCode>"
-
-    Examples: 
-      | TestName  | URL               | ContentType      | RequestBody | RequestMethod | StatusCode |
-      | Demo test | /api/users?page=2 | application/json |             | GET           |        200 |
 ```
 
 
