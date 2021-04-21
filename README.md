@@ -94,7 +94,9 @@ public class RunCucumberTest {
 ## run the test
 ```
 double click the test in maven
-
+```
+```
+right click the file RunCucumberTest choose run RunCucumberTest
 ```
 
 
