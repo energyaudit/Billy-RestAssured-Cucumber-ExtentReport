@@ -22,48 +22,13 @@ https://reqres.in/
 - Cucumber plugin
 ```
 
-## MAVEN_Dependencies
-Add the following dependencies to your `pom.xml`
-All below dependencies are compatible.
-
-```maven
-<dependency>
-	<groupId>com.vimalselvam</groupId>
-	<artifactId>testng-extentsreport</artifactId>
-	<version>1.3.1</version>
-</dependency>
-<dependency>
-	<groupId>com.vimalselvam</groupId>
-	<artifactId>cucumber-extentsreport</artifactId>
-	<version>3.0.2</version>
-</dependency>
-<dependency>
-	<groupId>info.cukes</groupId>
-	<artifactId>cucumber-jvm-deps</artifactId>
-	<version>1.0.5</version>
-	<scope>provided</scope>
-</dependency>
-<dependency>
-	<groupId>info.cukes</groupId>
-	<artifactId>cucumber-junit</artifactId>
-	<version>1.2.5</version>
-	<scope>test</scope>
-</dependency>
-<dependency>
-	<groupId>info.cukes</groupId>
-	<artifactId>cucumber-java</artifactId>
-	<version>1.2.5</version>
-</dependency>
-<dependency>
-	<groupId>com.aventstack</groupId>
-	<artifactId>extentreports</artifactId>
-	<version>3.1.2</version>
-</dependency>
-```
+## How to run
 
 
-- create a runner class for cucumber project
-- Run with tags. Here i have added `@get,@post,@put,@getfail,@postfail,@putfail` tags.
+
+- run single feature file only ://comment out tags = { "@hooks,@get,@smokes" },use: tags = { "@singlefeature" },
+- Run whole suites with tags. Here i have added `@get,@post,@put,@getfail,@postfail,@putfail` tags.
+  //comment outtags = { "@singlefeature" }
 ```java
 import java.io.File;
 

@@ -1,4 +1,4 @@
-
+@singlefeature
 Feature: GET: Automated Demo Tests
   Description: GET: purpose of this feature is to test some demo app.
 
