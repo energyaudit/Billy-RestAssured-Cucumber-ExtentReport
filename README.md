@@ -24,7 +24,7 @@ https://reqres.in/
 
 ## How to run
 
-
+- right click RunCucumberTest->Run
 
 - run single feature file only ://comment out tags = { "@hooks,@get,@smokes" },use: tags = { "@singlefeature" },
 - Run whole suites with tags. Here i have added `@get,@post,@put,@getfail,@postfail,@putfail` tags.
